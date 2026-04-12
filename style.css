@@ -188,6 +188,28 @@ h2{
     margin: 1rem;
 }
 
+#gigs a img{
+    width: 60%;
+    margin: auto;
+    border: dotted 4px var(--burg);
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px var(--baltic);
+}
+
+#gigs a:hover img{
+    transition: 0.5s;
+    border: solid 6px var(--burg);
+    border-radius: 50px;
+    box-shadow: 4px 4px 4px var(--baltic);
+}
+
+#gigs a:active img{
+    width: 100%;
+    border: solid 10px var(--rosy);
+    border-radius: 50px;
+    box-shadow: 4px 4px 4px var(--baltic);
+}
+
 .instagram{
     width: 40%;
     fill: var(--rosy);
