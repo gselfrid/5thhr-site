@@ -122,6 +122,7 @@ nav ul{
 }
 
 nav a {
+    transition: 0.25s;
     display: block;
     margin: 0.75rem 0.25rem;
     padding: 0.5rem;
@@ -133,6 +134,32 @@ nav a {
     box-shadow: 4px 2px 2px var(--dark);
 }
 
+nav a:hover {
+    transition: 0.5s;
+    display: block;
+    margin: 0.75rem 0.25rem;
+    padding: 0.75rem;
+    background-color: var(--rosy);
+    text-decoration: none;
+    color: var(--burg);
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 4px 2px 2px var(--dark);
+}
+
+nav a:active {
+    transition: 0.15s;
+    display: block;
+    margin: 0.75rem 0.25rem;
+    padding: 0.75rem;
+    background-color: var(--burg);
+    text-decoration: none;
+    color: var(--sky);
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 4px 2px 2px var(--dark);
+}
+
 main > section{
     margin: 1.5rem 1rem;
     padding: 0.75rem;
@@ -140,11 +167,11 @@ main > section{
     box-shadow: 2px 2px 5px var(--dark);
 }
 
-#about, #gigs{
+#listen, #gigs{
     background-color: var(--sky);
 }
 
-#listen{
+#about{
     background-color: var(--rosy);
 }
 
@@ -238,6 +265,17 @@ footer a img{
     border-radius: 50%;
 }
 
+footer a:hover img{
+    border-radius: 25%;
+    transition: 0.5s;
+}
+
+footer a:active img{
+    border-radius: 25%;
+    border: 5px solid var(--sky);
+    transition: 0.5s;
+}
+
 footer p{
     text-align: center;
     color: var(--grape);
@@ -249,6 +287,24 @@ footer p a{
     padding: 0.5rem;
     border-radius: 10px;
     color: var(--burg);
+    border: 2px solid;
+}
+
+footer p a:hover{
+    transition: 0.5s;
+    background-color: var(--rosy);
+    padding: 0.75rem;
+    border-radius: 50px;
+    color: var(--burg);
+    border: 2px solid;
+}
+
+footer p a:active{
+    transition: 0.5s;
+    background-color: var(--baltic);
+    padding: 0.75rem;
+    border-radius: 50px;
+    color: var(--sky);
     border: 2px solid;
 }
 
