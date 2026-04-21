@@ -256,21 +256,21 @@ footer{
     border-top-right-radius: 50px;
 }
 
-footer ul{
+#music{
     display: flex;
     margin: 2rem auto;
 }
 
-footer a img{
+#music a img{
     border-radius: 50%;
 }
 
-footer a:hover img{
+#music a:hover img{
     border-radius: 25%;
     transition: 0.5s;
 }
 
-footer a:active img{
+#music a:active img{
     border-radius: 25%;
     border: 5px solid var(--sky);
     transition: 0.5s;
