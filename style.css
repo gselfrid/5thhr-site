@@ -231,7 +231,7 @@ h2{
 }
 
 #gigs a:active img{
-    width: 100%;
+    width: 70%;
     border: solid 10px var(--rosy);
     border-radius: 50px;
     box-shadow: 4px 4px 4px var(--baltic);
